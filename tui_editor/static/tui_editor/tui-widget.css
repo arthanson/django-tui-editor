@@ -1,0 +1,27 @@
+.tui-editor-wrap {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.tui-editor-wrap .toastui-editor-defaultUI {
+    min-height: 200px;
+}
+
+/* Admin-specific overrides */
+.tui-editor-admin + .tui-editor-wrap {
+    width: 100%;
+}
+
+.tui-editor-admin + .tui-editor-wrap .toastui-editor-defaultUI {
+    min-height: 250px;
+}
+
+/* content-editor plugin styling */
+.content-editor-plugin .tui-editor-wrap {
+    margin: 0;
+}
+
+.content-editor-plugin .tui-editor-wrap .toastui-editor-defaultUI {
+    min-height: 150px;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tui-editor-build",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@toast-ui/editor": "^3.2.2",
+    "esbuild": "^0.24.0"
+  }
+}

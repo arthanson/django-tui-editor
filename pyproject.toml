@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-tui-editor"
+version = "0.1.0"
+description = "Django widget for Toast UI Editor (markdown mode)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "Arthur Hanson", email = "worldnomad@gmail.com"},
+]
+keywords = ["django", "toast-ui", "editor", "widget", "markdown", "wysiwyg"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Framework :: Django :: 5.1",
+    "Framework :: Django :: 5.2",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Text Editors",
+]
+dependencies = ["django>=4.2"]
+
+[project.urls]
+Homepage = "https://github.com/arthanson/django-tui-editor"
+Repository = "https://github.com/arthanson/django-tui-editor"
+Issues = "https://github.com/arthanson/django-tui-editor/issues"
+
+[tool.setuptools.packages.find]
+include = ["tui_editor*"]
+
+[tool.setuptools.package-data]
+tui_editor = ["static/tui_editor/*", "templates/tui_editor/*"]
