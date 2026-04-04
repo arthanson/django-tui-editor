@@ -6,7 +6,7 @@ from django import forms
 class TuiEditorWidget(forms.Textarea):
     """Drop-in Textarea replacement backed by Toast UI Editor (markdown mode)."""
 
-    template_name = "tui_editor/widget.html"
+    template_name = "toastui_editor/widget.html"
 
     def __init__(self, attrs=None, config=None):
         self.config = config or {}
@@ -18,13 +18,13 @@ class TuiEditorWidget(forms.Textarea):
     class Media:
         css = {
             "all": (
-                "tui_editor/toastui-editor.min.css",
-                "tui_editor/tui-widget.css",
+                "toastui_editor/toastui-editor.min.css",
+                "toastui_editor/tui-widget.css",
             )
         }
         js = (
-            "tui_editor/toastui-editor-all.min.js",
-            "tui_editor/tui-widget.js",
+            "toastui_editor/toastui-editor-all.min.js",
+            "toastui_editor/tui-widget.js",
         )
 
     def build_attrs(self, base_attrs, extra_attrs=None):

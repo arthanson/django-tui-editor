@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "django-tui-editor"
+name = "django-toastui-editor"
 version = "0.1.0"
 description = "Django widget for Toast UI Editor (markdown mode)"
 readme = "README.md"
@@ -34,12 +34,12 @@ classifiers = [
 dependencies = ["django>=4.2"]
 
 [project.urls]
-Homepage = "https://github.com/arthanson/django-tui-editor"
-Repository = "https://github.com/arthanson/django-tui-editor"
-Issues = "https://github.com/arthanson/django-tui-editor/issues"
+Homepage = "https://github.com/arthanson/django-toastui-editor"
+Repository = "https://github.com/arthanson/django-toastui-editor"
+Issues = "https://github.com/arthanson/django-toastui-editor/issues"
 
 [tool.setuptools.packages.find]
-include = ["tui_editor*"]
+include = ["toastui_editor*"]
 
 [tool.setuptools.package-data]
-tui_editor = ["static/tui_editor/*", "templates/tui_editor/*"]
+toastui_editor = ["static/toastui_editor/*", "templates/toastui_editor/*"]
