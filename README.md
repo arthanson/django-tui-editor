@@ -1,4 +1,4 @@
-# django-tui-editor
+# django-toastui-editor
 
 A Django widget that integrates [Toast UI Editor](https://ui.toast.com/tui-editor) into Django forms and admin as a drop-in replacement for standard textarea fields with rich markdown editing.
 
@@ -19,7 +19,7 @@ A Django widget that integrates [Toast UI Editor](https://ui.toast.com/tui-edito
 ## Installation
 
 ```bash
-pip install django-tui-editor
+pip install django-toastui-editor
 ```
 
 Add to your `INSTALLED_APPS`:
