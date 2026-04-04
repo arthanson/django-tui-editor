@@ -1,3 +1,35 @@
+Metadata-Version: 2.4
+Name: django-toastui-markdown-editor
+Version: 0.1.0
+Summary: Django widget for Toast UI Editor (markdown mode)
+Author-email: Arthur Hanson <worldnomad@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/arthanson/django-toastui-markdown-editor
+Project-URL: Repository, https://github.com/arthanson/django-toastui-markdown-editor
+Project-URL: Issues, https://github.com/arthanson/django-toastui-markdown-editor/issues
+Keywords: django,toast-ui,editor,widget,markdown,wysiwyg
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Django :: 5.0
+Classifier: Framework :: Django :: 5.1
+Classifier: Framework :: Django :: 5.2
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Text Editors
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django>=4.2
+Dynamic: license-file
+
 # django-toastui-markdown-editor
 
 A Django widget that integrates [Toast UI Editor](https://ui.toast.com/tui-editor) into Django forms and admin as a drop-in replacement for standard textarea fields with rich markdown editing.
